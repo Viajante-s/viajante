@@ -1,0 +1,44 @@
+<!-- Define que o documento usa HTML5. -->
+<!DOCTYPE html>
+<!-- Define que a página está em português do Brasil. -->
+<html lang="pt-br">
+
+<head>
+    <!-- Permite usar caracteres especiais (acentos, por exemplo). -->
+    <meta charset="UTF-8">
+    <!--Torna a página responsiva em celulares. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="./img/baixados (14).jpg">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Define o título da aba do navegador. -->
+    <title>site da ju</title>
+
+</head>
+
+<body>
+
+
+    <h1>Olá, viajante!</h1>
+    <img id="imagem" src="./img/baixados (14).jpg" alt="gatinho fofo">
+
+    <!-- butao -->
+    <button id="botao">click</button>
+
+    <!-- comentario e butao -->
+    <div id="commentBox">
+        <textarea id="commentInput" placeholder="Escreva pra ju *°*"></textarea>
+        <button id="enviar" onclick="addComment()">Enviar</button>
+    </div>
+
+    <!-- exibicao de comentario; -->
+    <div id="commentsList"></div>
+
+    
+
+
+</body>
+
+<script src="./script/script.js"></script>
+
+</html>
